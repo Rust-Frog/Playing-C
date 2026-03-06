@@ -27,8 +27,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea703e0c-e82e-48da-a8da-0ecc8fea2881" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binary_calc/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/binary_calc/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitnore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,9 +147,9 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.main" />
       <item itemvalue="C/C++ File.main.c (1)" />
       <item itemvalue="C/C++ File.main.c" />
+      <item itemvalue="CMake Application.main" />
     </list>
     <recent_temporary>
       <list>
@@ -183,7 +182,7 @@
       <workItem from="1772766339000" duration="741000" />
       <workItem from="1772772099840" duration="728000" />
       <workItem from="1772777664408" duration="1722000" />
-      <workItem from="1772800357449" duration="95000" />
+      <workItem from="1772800357449" duration="196000" />
     </task>
     <servers />
   </component>
