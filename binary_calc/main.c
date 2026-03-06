@@ -2,10 +2,12 @@
 // Created by chef on 3/6/26.
 //
 
+#include <math.h>
 #include <stdio.h>
-int main () {
+
+void decimal_to_binary() {
     int input;
-    int bits[32];
+    char bits[33];
     int i = 0;
     printf("Binary converter. \n");
     printf("Please enter an integer: ");
@@ -13,13 +15,51 @@ int main () {
     scanf("%d", &input);
 
     while (input != 0) {
-        bits[i] = input % 2; //Store if the output is one or zero
-        input = input / 2; // divide the numbers into half but discard the floating number.
-        i++; //increament the i which will be used by as an index.
+        bits[i] = (input & 1) + '0'; // AND with 1 to get the LSB
+        input >>= 1;                  // right shift to move to the next bit
+        i++;
     }
+    bits[i] = '\0';
 
     for (int j = i - 1; j >= 0; j--) { // print the output backwards
-        printf("%d", bits[j]);
+        printf("%c", bits[j]);
     }
-    printf("\n"); // test
+    printf("\n");
+}
+
+void binary_to_decimal() {
+    char input[65];
+    printf("Binary to decimal converter. \n");
+    printf("Please enter a binary number: ");
+    fflush(stdout);
+    scanf("%64s", input);
+
+    int result = 0;
+    for (int i = 0; input[i] != '\0'; i++) {
+        result = (result << 1) | (input[i] - '0'); // shift left and OR in the next bit
+    }
+
+    printf("%d\n", result);
+}
+int main () {
+
+    while (1) {
+        printf("1. Decimal to Binary\nBinary to decimal \nChoose an option: ");
+        fflush(stdout);
+        int option;
+        scanf("%d", &option);
+        switch (option) {
+            case 1:
+                decimal_to_binary();
+                break;
+            case 2:
+                binary_to_decimal();
+                break;
+            default:
+                printf("Invalid option. \n");
+                break;
+        }
+    }
+
+    return 0;
 }
