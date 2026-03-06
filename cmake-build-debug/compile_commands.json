@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/chef/Documents/C/cmake-build-debug",
+  "command": "/usr/bin/cc -g -std=gnu11 -fdiagnostics-color=always -o CMakeFiles/main.dir/main.c.o -c /home/chef/Documents/C/main.c",
+  "file": "/home/chef/Documents/C/main.c",
+  "output": "/home/chef/Documents/C/cmake-build-debug/CMakeFiles/main.dir/main.c.o"
+}
+]

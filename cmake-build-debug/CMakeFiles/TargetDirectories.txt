@@ -1,0 +1,3 @@
+/home/chef/Documents/C/cmake-build-debug/CMakeFiles/main.dir
+/home/chef/Documents/C/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/chef/Documents/C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
