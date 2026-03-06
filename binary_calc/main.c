@@ -21,5 +21,5 @@ int main () {
     for (int j = i - 1; j >= 0; j--) { // print the output backwards
         printf("%d", bits[j]);
     }
-    printf("\n");
+    printf("\n"); // test
 }

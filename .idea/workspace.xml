@@ -26,7 +26,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea703e0c-e82e-48da-a8da-0ecc8fea2881" name="Changes" comment="" />
+    <list default="true" id="ea703e0c-e82e-48da-a8da-0ecc8fea2881" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_calc/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/binary_calc/main.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,10 +50,25 @@
     </selectedModels>
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="41" />
+    <option name="cachedIndexableFilesCount" value="43" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Rust-Frog"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Rust-Frog/Playing-C.git",
+    "accountId": "426c7d65-99ed-45cb-9955-125b403c263d"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/main.c" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -86,11 +104,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "RunOnceActivity.west.config.association.type.startup.service": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/home/chef/C",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -128,9 +148,9 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="CMake Application.main" />
       <item itemvalue="C/C++ File.main.c (1)" />
       <item itemvalue="C/C++ File.main.c" />
-      <item itemvalue="CMake Application.main" />
     </list>
     <recent_temporary>
       <list>
@@ -162,7 +182,8 @@
       <workItem from="1772706321485" duration="7168000" />
       <workItem from="1772766339000" duration="741000" />
       <workItem from="1772772099840" duration="728000" />
-      <workItem from="1772777664408" duration="786000" />
+      <workItem from="1772777664408" duration="1722000" />
+      <workItem from="1772800357449" duration="95000" />
     </task>
     <servers />
   </component>
