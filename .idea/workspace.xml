@@ -26,7 +26,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea703e0c-e82e-48da-a8da-0ecc8fea2881" name="Changes" comment="Implement decimal to binary and binary to decimal conversion functions" />
+    <list default="true" id="ea703e0c-e82e-48da-a8da-0ecc8fea2881" name="Changes" comment="Implement decimal to binary and binary to decimal conversion functions">
+      <change beforePath="$PROJECT_DIR$/binary_calc/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/binary_calc/main.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +54,11 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Rust-Frog &lt;b235.dev@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
@@ -180,7 +187,7 @@
       <workItem from="1772766339000" duration="741000" />
       <workItem from="1772772099840" duration="728000" />
       <workItem from="1772777664408" duration="1722000" />
-      <workItem from="1772800357449" duration="3779000" />
+      <workItem from="1772800357449" duration="3942000" />
     </task>
     <task id="LOCAL-00001" summary="Implement decimal to binary and binary to decimal conversion functions">
       <option name="closed" value="true" />
@@ -190,7 +197,23 @@
       <option name="project" value="LOCAL" />
       <updated>1772804137518</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Implement decimal to binary and binary to decimal conversion functions">
+      <option name="closed" value="true" />
+      <created>1772804262498</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1772804262498</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Implement decimal to binary and binary to decimal conversion functions">
+      <option name="closed" value="true" />
+      <created>1772804271683</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1772804271683</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

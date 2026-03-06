@@ -36,6 +36,10 @@ void binary_to_decimal() {
 
     int result = 0;
     for (int i = 0; input[i] != '\0'; i++) {
+        if (input[i] != '0' && input[i] != '1') {
+            printf("Invalid input. \n");
+            return;
+        }
         result = (result << 1) | (input[i] - '0'); // shift left and OR in the next bit
     }
 
@@ -44,7 +48,7 @@ void binary_to_decimal() {
 int main () {
 
     while (1) {
-        printf("1. Decimal to Binary\nBinary to decimal \nChoose an option: ");
+        printf("1. Decimal to Binary\n2. Binary to decimal \nChoose an option: ");
         fflush(stdout);
         int option;
         scanf("%d", &option);
