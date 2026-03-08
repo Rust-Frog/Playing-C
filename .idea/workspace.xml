@@ -26,7 +26,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea703e0c-e82e-48da-a8da-0ecc8fea2881" name="Changes" comment="Add input validation for binary conversion and update menu options">
+    <list default="true" id="ea703e0c-e82e-48da-a8da-0ecc8fea2881" name="Changes" comment="Update workspace configuration for input validation and menu options">
+      <change afterPath="$PROJECT_DIR$/rev_str/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +50,7 @@
     </selectedModels>
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="44" />
+    <option name="cachedIndexableFilesCount" value="46" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
@@ -93,6 +94,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="39Ki6k4WIjWPxEIwVel195sqlPn" />
+  <component name="ProjectStatusUIService">{
+  &quot;uiKindId&quot;: &quot;Widget&quot;
+}</component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -100,6 +104,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;C/C++ File.main.c (1).executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.main.c (2).executor&quot;: &quot;Run&quot;,
     &quot;C/C++ File.main.c.executor&quot;: &quot;Run&quot;,
     &quot;CMake Application.C.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
@@ -133,7 +138,7 @@
   <component name="RecapUselessUpdatesCounter">
     <option name="suspendCountdown" value="0" />
   </component>
-  <component name="RunManager" selected="C/C++ File.main.c (1)">
+  <component name="RunManager" selected="C/C++ File.main.c (2)">
     <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C" RUN_TARGET_NAME="main">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -145,6 +150,12 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="main.c (2)" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="main.c" CONFIG_NAME="main.c">
+      <option name="sourceFile" value="rev_str/main.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="main.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="main.c" CONFIG_NAME="main.c">
       <option name="sourceFile" value="main.c" />
       <method v="2">
@@ -152,12 +163,14 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="C/C++ File.main.c (2)" />
       <item itemvalue="C/C++ File.main.c (1)" />
       <item itemvalue="C/C++ File.main.c" />
       <item itemvalue="CMake Application.main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.main.c (2)" />
         <item itemvalue="C/C++ File.main.c (1)" />
         <item itemvalue="C/C++ File.main.c" />
       </list>
@@ -188,7 +201,9 @@
       <workItem from="1772772099840" duration="728000" />
       <workItem from="1772777664408" duration="1722000" />
       <workItem from="1772800357449" duration="5512000" />
-      <workItem from="1772805881742" duration="4760000" />
+      <workItem from="1772805881742" duration="6542000" />
+      <workItem from="1772953433841" duration="1042000" />
+      <workItem from="1772954503384" duration="398000" />
     </task>
     <task id="LOCAL-00001" summary="Implement decimal to binary and binary to decimal conversion functions">
       <option name="closed" value="true" />
@@ -222,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772804442639</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update workspace configuration for input validation and menu options">
+      <option name="closed" value="true" />
+      <created>1772811383694</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1772811383694</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +259,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implement decimal to binary and binary to decimal conversion functions" />
     <MESSAGE value="Add input validation for binary conversion and update menu options" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add input validation for binary conversion and update menu options" />
+    <MESSAGE value="Update workspace configuration for input validation and menu options" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update workspace configuration for input validation and menu options" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
