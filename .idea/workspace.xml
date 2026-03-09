@@ -26,9 +26,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea703e0c-e82e-48da-a8da-0ecc8fea2881" name="Changes" comment="Update workspace configuration for input validation and menu options">
-      <change afterPath="$PROJECT_DIR$/rev_str/main.c" afterDir="false" />
+    <list default="true" id="ea703e0c-e82e-48da-a8da-0ecc8fea2881" name="Changes" comment="Reverse String">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rev_str/main" beforeDir="false" afterPath="$PROJECT_DIR$/rev_str/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rev_str/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/rev_str/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +139,7 @@
   <component name="RecapUselessUpdatesCounter">
     <option name="suspendCountdown" value="0" />
   </component>
-  <component name="RunManager" selected="C/C++ File.main.c (2)">
+  <component name="RunManager" selected="C/C++ File.main.c (3)">
     <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C" RUN_TARGET_NAME="main">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -156,6 +157,12 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="main.c (3)" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="main.c" CONFIG_NAME="main.c">
+      <option name="sourceFile" value="fahr_to_cel/main.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="main.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="main.c" CONFIG_NAME="main.c">
       <option name="sourceFile" value="main.c" />
       <method v="2">
@@ -163,6 +170,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="C/C++ File.main.c (3)" />
       <item itemvalue="C/C++ File.main.c (2)" />
       <item itemvalue="C/C++ File.main.c (1)" />
       <item itemvalue="C/C++ File.main.c" />
@@ -170,6 +178,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.main.c (3)" />
         <item itemvalue="C/C++ File.main.c (2)" />
         <item itemvalue="C/C++ File.main.c (1)" />
         <item itemvalue="C/C++ File.main.c" />
@@ -203,7 +212,8 @@
       <workItem from="1772800357449" duration="5512000" />
       <workItem from="1772805881742" duration="6542000" />
       <workItem from="1772953433841" duration="1042000" />
-      <workItem from="1772954503384" duration="398000" />
+      <workItem from="1772954503384" duration="4267000" />
+      <workItem from="1772964689755" duration="1501000" />
     </task>
     <task id="LOCAL-00001" summary="Implement decimal to binary and binary to decimal conversion functions">
       <option name="closed" value="true" />
@@ -245,7 +255,23 @@
       <option name="project" value="LOCAL" />
       <updated>1772811383694</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Reverse String">
+      <option name="closed" value="true" />
+      <created>1772954992677</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1772954992677</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Reverse String">
+      <option name="closed" value="true" />
+      <created>1772955434844</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1772955434844</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +286,8 @@
     <MESSAGE value="Implement decimal to binary and binary to decimal conversion functions" />
     <MESSAGE value="Add input validation for binary conversion and update menu options" />
     <MESSAGE value="Update workspace configuration for input validation and menu options" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update workspace configuration for input validation and menu options" />
+    <MESSAGE value="Reverse String" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reverse String" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

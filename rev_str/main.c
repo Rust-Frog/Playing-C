@@ -16,8 +16,20 @@ int main() {
 
     int size =  sizeof(str)/ sizeof(str[0]);
 
-    for (int i = 0; i < size; i++) {
-        printf("%c", str[size - i - 1]);
+    int acutal_size = 0;
+
+    printf("%d\n", size);
+
+    for (acutal_size; acutal_size < size; acutal_size++) {
+        if (str[acutal_size] == '\0') {
+            break;
+        }
+    }
+
+    printf("%d\n", acutal_size);
+
+    for (int i = 0; i < acutal_size; i++) {
+        printf("%c", str[acutal_size - i - 1]);
     }
 
 
