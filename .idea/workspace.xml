@@ -27,11 +27,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea703e0c-e82e-48da-a8da-0ecc8fea2881" name="Changes" comment="Reverse String">
-      <change afterPath="$PROJECT_DIR$/fahr_to_cel/anthr_example/main.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fahr_to_cel/using_const/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fahr_to_cel/main" beforeDir="false" afterPath="$PROJECT_DIR$/fahr_to_cel/main" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fahr_to_cel/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/fahr_to_cel/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +106,7 @@
     "C/C++ File.main.c (2).executor": "Run",
     "C/C++ File.main.c (3).executor": "Run",
     "C/C++ File.main.c (4).executor": "Run",
+    "C/C++ File.main.c (5).executor": "Run",
     "C/C++ File.main.c.executor": "Run",
     "CMake Application.C.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -143,16 +140,10 @@
   <component name="RecapUselessUpdatesCounter">
     <option name="suspendCountdown" value="0" />
   </component>
-  <component name="RunManager" selected="C/C++ File.main.c (4)">
+  <component name="RunManager" selected="C/C++ File.main.c">
     <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C" RUN_TARGET_NAME="main">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="main.c (1)" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="main.c" CONFIG_NAME="main.c">
-      <option name="sourceFile" value="binary_calc/main.c" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="main.c (2)" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="main.c" CONFIG_NAME="main.c">
@@ -173,8 +164,14 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="main.c (5)" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="main.c" CONFIG_NAME="main.c">
+      <option name="sourceFile" value="fahr_to_cel/using_const/main.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="main.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="main.c" CONFIG_NAME="main.c">
-      <option name="sourceFile" value="main.c" />
+      <option name="sourceFile" value="filecopy/main.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -182,18 +179,18 @@
     <list>
       <item itemvalue="C/C++ File.main.c (3)" />
       <item itemvalue="C/C++ File.main.c (4)" />
+      <item itemvalue="C/C++ File.main.c (5)" />
       <item itemvalue="C/C++ File.main.c (2)" />
-      <item itemvalue="C/C++ File.main.c (1)" />
       <item itemvalue="C/C++ File.main.c" />
       <item itemvalue="CMake Application.main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.main.c" />
+        <item itemvalue="C/C++ File.main.c (5)" />
         <item itemvalue="C/C++ File.main.c (4)" />
         <item itemvalue="C/C++ File.main.c (3)" />
         <item itemvalue="C/C++ File.main.c (2)" />
-        <item itemvalue="C/C++ File.main.c (1)" />
-        <item itemvalue="C/C++ File.main.c" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +223,7 @@
       <workItem from="1772953433841" duration="1042000" />
       <workItem from="1772954503384" duration="4267000" />
       <workItem from="1772964689755" duration="1501000" />
-      <workItem from="1773033509876" duration="3911000" />
+      <workItem from="1773033509876" duration="6228000" />
     </task>
     <task id="LOCAL-00001" summary="Implement decimal to binary and binary to decimal conversion functions">
       <option name="closed" value="true" />
