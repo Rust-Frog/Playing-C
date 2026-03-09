@@ -1,15 +1,14 @@
 //
 // Created by chef on 3/9/26.
 //
-
 #include <stdio.h>
 
 int main() {
 
-    int c;
+    long count;
 
-    while ((c = getchar()) != EOF) {
-        putchar(c);
+    for (count = 0; getchar() != EOF; count++) {
+        printf("%ld\n", (count));
         fflush(stdout);
     }
 
