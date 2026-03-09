@@ -28,6 +28,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ea703e0c-e82e-48da-a8da-0ecc8fea2881" name="Changes" comment="Reverse String">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filecopy/main" beforeDir="false" afterPath="$PROJECT_DIR$/filecopy/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filecopy/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/filecopy/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,7 +225,7 @@
       <workItem from="1772953433841" duration="1042000" />
       <workItem from="1772954503384" duration="4267000" />
       <workItem from="1772964689755" duration="1501000" />
-      <workItem from="1773033509876" duration="6228000" />
+      <workItem from="1773033509876" duration="7246000" />
     </task>
     <task id="LOCAL-00001" summary="Implement decimal to binary and binary to decimal conversion functions">
       <option name="closed" value="true" />
