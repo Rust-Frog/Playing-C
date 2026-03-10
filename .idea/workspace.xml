@@ -26,8 +26,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea703e0c-e82e-48da-a8da-0ecc8fea2881" name="Changes" comment="Reverse String">
+    <list default="true" id="ea703e0c-e82e-48da-a8da-0ecc8fea2881" name="Changes" comment="Implement printf functionality in main.c and update workspace.xml">
+      <change afterPath="$PROJECT_DIR$/linecount/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filecopy/scanf/main" beforeDir="false" afterPath="$PROJECT_DIR$/filecopy/scanf/main" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +42,7 @@
   <component name="CopilotPersistence">
     <persistenceIdMap>
       <entry key="_/home/chef/Documents/C" value="39Ki6k4WIjWPxEIwVel195sqlPn" />
+      <entry key="_/home/chef/Documents/C/.idea" value="3Al6WIT2rplaLocn5ONIAIgZs2n" />
     </persistenceIdMap>
   </component>
   <component name="CopilotUserSelectedModel">
@@ -49,7 +52,7 @@
     </selectedModels>
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="58" />
+    <option name="cachedIndexableFilesCount" value="61" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
@@ -141,7 +144,7 @@
   <component name="RecapUselessUpdatesCounter">
     <option name="suspendCountdown" value="0" />
   </component>
-  <component name="RunManager" selected="C/C++ File.main.c (2)">
+  <component name="RunManager" selected="C/C++ File.main.c (3)">
     <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C" RUN_TARGET_NAME="main">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -159,8 +162,8 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main.c (4)" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="main.c" CONFIG_NAME="main.c">
-      <option name="sourceFile" value="fahr_to_cel/anthr_example/main.c" />
+    <configuration name="main.c (3)" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="main.c" CONFIG_NAME="main.c">
+      <option name="sourceFile" value="linecount/main.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -178,20 +181,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.main" />
-      <item itemvalue="C/C++ File.main.c (1)" />
+      <item itemvalue="C/C++ File.main.c (3)" />
       <item itemvalue="C/C++ File.main.c (2)" />
-      <item itemvalue="C/C++ File.main.c (4)" />
       <item itemvalue="C/C++ File.main.c (5)" />
+      <item itemvalue="C/C++ File.main.c (1)" />
       <item itemvalue="C/C++ File.main.c" />
+      <item itemvalue="CMake Application.main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.main.c (3)" />
         <item itemvalue="C/C++ File.main.c (2)" />
         <item itemvalue="C/C++ File.main.c (1)" />
         <item itemvalue="C/C++ File.main.c" />
         <item itemvalue="C/C++ File.main.c (5)" />
-        <item itemvalue="C/C++ File.main.c (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -226,6 +229,7 @@
       <workItem from="1772964689755" duration="1501000" />
       <workItem from="1773033509876" duration="9844000" />
       <workItem from="1773056392845" duration="11227000" />
+      <workItem from="1773154841637" duration="245000" />
     </task>
     <task id="LOCAL-00001" summary="Implement decimal to binary and binary to decimal conversion functions">
       <option name="closed" value="true" />
@@ -283,7 +287,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772955434844</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Implement printf functionality in main.c and update workspace.xml">
+      <option name="closed" value="true" />
+      <created>1773154925392</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1773154925392</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,7 +311,8 @@
     <MESSAGE value="Add input validation for binary conversion and update menu options" />
     <MESSAGE value="Update workspace configuration for input validation and menu options" />
     <MESSAGE value="Reverse String" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reverse String" />
+    <MESSAGE value="Implement printf functionality in main.c and update workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement printf functionality in main.c and update workspace.xml" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
