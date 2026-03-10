@@ -26,9 +26,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea703e0c-e82e-48da-a8da-0ecc8fea2881" name="Changes" comment="Add line counting functionality in main.c and update workspace.xml">
-      <change afterPath="$PROJECT_DIR$/wordcount/main.c" afterDir="false" />
+    <list default="true" id="ea703e0c-e82e-48da-a8da-0ecc8fea2881" name="Changes" comment="Add word counting functionality in main.c and update workspace.xml">
+      <change afterPath="$PROJECT_DIR$/digit_word_counter/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/main" beforeDir="false" afterPath="$PROJECT_DIR$/wordcount/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/wordcount/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +145,7 @@
   <component name="RecapUselessUpdatesCounter">
     <option name="suspendCountdown" value="0" />
   </component>
-  <component name="RunManager" selected="C/C++ File.main.c (4)">
+  <component name="RunManager" selected="C/C++ File.main.c (5)">
     <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C" RUN_TARGET_NAME="main">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -173,8 +175,8 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="main.c" CONFIG_NAME="main.c">
-      <option name="sourceFile" value="filecopy/main.c" />
+    <configuration name="main.c (5)" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C" TARGET_NAME="main.c" CONFIG_NAME="main.c">
+      <option name="sourceFile" value="digit_word_counter/main.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -183,17 +185,17 @@
       <item itemvalue="C/C++ File.main.c (3)" />
       <item itemvalue="C/C++ File.main.c (2)" />
       <item itemvalue="C/C++ File.main.c (4)" />
+      <item itemvalue="C/C++ File.main.c (5)" />
       <item itemvalue="C/C++ File.main.c (1)" />
-      <item itemvalue="C/C++ File.main.c" />
       <item itemvalue="CMake Application.main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.main.c (5)" />
         <item itemvalue="C/C++ File.main.c (4)" />
         <item itemvalue="C/C++ File.main.c (3)" />
         <item itemvalue="C/C++ File.main.c (2)" />
         <item itemvalue="C/C++ File.main.c (1)" />
-        <item itemvalue="C/C++ File.main.c" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +230,7 @@
       <workItem from="1772964689755" duration="1501000" />
       <workItem from="1773033509876" duration="9844000" />
       <workItem from="1773056392845" duration="11227000" />
-      <workItem from="1773154841637" duration="2324000" />
+      <workItem from="1773154841637" duration="5986000" />
     </task>
     <task id="LOCAL-00001" summary="Implement decimal to binary and binary to decimal conversion functions">
       <option name="closed" value="true" />
@@ -302,7 +304,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773155113740</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add word counting functionality in main.c and update workspace.xml">
+      <option name="closed" value="true" />
+      <created>1773157414422</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1773157414422</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,7 +330,8 @@
     <MESSAGE value="Reverse String" />
     <MESSAGE value="Implement printf functionality in main.c and update workspace.xml" />
     <MESSAGE value="Add line counting functionality in main.c and update workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add line counting functionality in main.c and update workspace.xml" />
+    <MESSAGE value="Add word counting functionality in main.c and update workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add word counting functionality in main.c and update workspace.xml" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

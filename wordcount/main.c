@@ -5,8 +5,8 @@
 #include <stdio.h>
 
 
-#define YES 1
-#define NO 0
+#define YES true
+#define NO false
 
 
 int main() {
