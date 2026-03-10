@@ -33,7 +33,7 @@ void my_scanf(const char *format, ...) {
                 }
             }
         } else {
-            //do nothing for now
+            printf(format);
         }
         format++;
     }

@@ -27,13 +27,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea703e0c-e82e-48da-a8da-0ecc8fea2881" name="Changes" comment="Reverse String">
-      <change afterPath="$PROJECT_DIR$/.idea/C.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filecopy/countingchars/main.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filecopy/scanf/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filecopy/main" beforeDir="false" afterPath="$PROJECT_DIR$/filecopy/main" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filecopy/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/filecopy/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,40 +100,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "C/C++ File.main.c (1).executor": "Run",
-    "C/C++ File.main.c (2).executor": "Run",
-    "C/C++ File.main.c (3).executor": "Run",
-    "C/C++ File.main.c (4).executor": "Run",
-    "C/C++ File.main.c (5).executor": "Run",
-    "C/C++ File.main.c.executor": "Run",
-    "CMake Application.C.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.RadMigrateCodeStyle": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "RunOnceActivity.west.config.association.type.startup.service": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/chef/C",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "org.rust.first.attach.projects": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;C/C++ File.main.c (1).executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.main.c (2).executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.main.c (3).executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.main.c (4).executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.main.c (5).executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.main.c.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.C.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.west.config.association.type.startup.service&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/chef/C&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecapSpentCounter">
     <option name="endsOfQuotaMs" value="1774368038587" />
     <option name="spentUsd" value="0.10794425" />
@@ -184,12 +178,12 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="CMake Application.main" />
+      <item itemvalue="C/C++ File.main.c (1)" />
       <item itemvalue="C/C++ File.main.c (2)" />
       <item itemvalue="C/C++ File.main.c (4)" />
       <item itemvalue="C/C++ File.main.c (5)" />
-      <item itemvalue="C/C++ File.main.c (1)" />
       <item itemvalue="C/C++ File.main.c" />
-      <item itemvalue="CMake Application.main" />
     </list>
     <recent_temporary>
       <list>
@@ -231,7 +225,7 @@
       <workItem from="1772954503384" duration="4267000" />
       <workItem from="1772964689755" duration="1501000" />
       <workItem from="1773033509876" duration="9844000" />
-      <workItem from="1773056392845" duration="2053000" />
+      <workItem from="1773056392845" duration="11227000" />
     </task>
     <task id="LOCAL-00001" summary="Implement decimal to binary and binary to decimal conversion functions">
       <option name="closed" value="true" />
