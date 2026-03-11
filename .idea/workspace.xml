@@ -27,8 +27,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea703e0c-e82e-48da-a8da-0ecc8fea2881" name="Changes" comment="Add word counting functionality in main.c and update workspace.xml">
-      <change afterPath="$PROJECT_DIR$/record_longest/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/record_longest/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/record_longest/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +228,7 @@
       <workItem from="1772964689755" duration="1501000" />
       <workItem from="1773033509876" duration="9844000" />
       <workItem from="1773056392845" duration="11227000" />
-      <workItem from="1773154841637" duration="11511000" />
+      <workItem from="1773154841637" duration="13405000" />
     </task>
     <task id="LOCAL-00001" summary="Implement decimal to binary and binary to decimal conversion functions">
       <option name="closed" value="true" />
